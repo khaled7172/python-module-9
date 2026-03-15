@@ -9,6 +9,22 @@ tar -xvf archive_name.tar
 -f File: specifies that the next argument is the archive file name
 To extract to a specific directory
 tar -xvf archive_name.tar -C /path/to/destination
+when you clone on 42 pc:
+pip install pydantic to make sure the file runs well ex0
+
+ex1
+what is cls?
+cls is a class reference like self for instances
+when you use @model_validator(mode="after")
+pydantic calls the method on the class, not on an instance yet
+its not needed here, but  method signature must incldue it
+print(cls) #  <class '__main__.AlienContact'>
+
+
+
+
+
+
 
 Go crazy:
 autopep8 --in-place --aggressive --aggressive ft_garden_management.py
